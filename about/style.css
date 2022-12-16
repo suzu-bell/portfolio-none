@@ -1,0 +1,83 @@
+@charset "UTF-8";
+* {
+    box-sizing: border-box;
+    background-color: #f5f5f5;
+    color: #696969;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    height: 230px;
+}
+
+.icon {
+    padding: 50px 50px;
+    position: absolute;
+    left: 0;
+}
+
+body {
+    font-family: 'Yu Mincho Light','YuMincho','Yu Mincho','游明朝体',sans-serif;
+    margin: 0;
+}
+
+
+#about {
+    padding: 40px;
+    margin-top: 50px;
+}
+
+.text {
+    padding: 10px 10px 10px 60px;
+    max-width: 90%;
+    width: 600px;
+    margin: 0 auto;
+}
+
+h1 {
+    margin: 0;
+    padding-bottom: 20px;
+    font-size: 40px;
+}
+
+h3 {
+    margin: 10px 0;
+    font-size: 20px;
+    
+}
+
+p {
+    font-size: 15px;
+    margin: 5px 0;
+    
+}
+
+.space {
+    padding-top: 10px;
+    padding-bottom: 80px;
+}
+
+.mail {
+    margin-bottom: 100px;
+    font-size: 30px;
+}
+
+.contact-wrapper {
+    text-align: center;
+    
+}
+
+#contact {
+    margin: 50px 0;
+}
+
+.footer {
+    background-color: #a9a9a9;
+    color:white;
+    text-align: center;
+    height: 50px;
+    line-height: 50px;
+    margin: 0;
+}
