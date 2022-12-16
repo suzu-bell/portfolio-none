@@ -5,6 +5,11 @@
     background-color: #f5f5f5;
 }
 
+body {
+    margin: 0;
+    font-family: 'Yu Mincho Light','YuMincho','Yu Mincho','游明朝体',sans-serif;;
+}
+
 header {
     display: flex;
     justify-content: space-between;
@@ -39,4 +44,36 @@ header {
     margin-bottom: 100px;
     max-height: 60%;
     max-width: 100%;
+}
+
+.work {
+    margin: 50px 0;
+}
+
+.contents {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 85%;
+    margin: 0 auto;
+}
+
+.contents img {
+    width: 300px;
+    margin: 5px 20px;
+}
+
+.contents p {
+    font-size: 20px;
+    margin-top: 0;
+    margin-bottom: 50px;
+}
+
+.footer {
+    background-color: #a9a9a9;
+    color:white;
+    text-align: center;
+    height: 50px;
+    line-height: 50px;
+    margin: 50px 0 0 0;
 }
